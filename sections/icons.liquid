@@ -1,0 +1,44 @@
+<section class="icon-section">
+  <div class="container flex justify-start lg:justify-center mx-auto py-12">
+    {% for block in section.blocks %}
+      <img src="{{ block.settings.image | img_url: '200x'}}">
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+  {
+  "name": "Icons",
+    "blocks": [
+      {
+        "type": "icon",
+        "name": "Icon",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+  "presets": [{
+    "name": "Icons",
+    "category": "Icons",
+    "blocks": [ 
+      {
+        "type": "icon"
+      },
+      {
+        "type": "icon"
+      },
+      {
+        "type": "icon"
+      },
+      {
+        "type": "icon"
+      }
+    ]
+  }]
+  }
+{% endschema %}

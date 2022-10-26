@@ -1,0 +1,7 @@
+.icon-section {
+  overflow-x: scroll;
+}
+
+.icon-section img {
+  min-width: 120px;
+}
