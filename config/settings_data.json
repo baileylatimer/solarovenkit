@@ -3,7 +3,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#cf6e3a",
     "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#288bcc",
     "gradient_accent_2": "",
     "colors_text": "#1b3550",
     "colors_outline_button_labels": "#121212",
@@ -104,7 +104,7 @@
             "type": "announcement",
             "settings": {
               "text": "From the creators at GoSun",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-2",
               "link": "https:\/\/www.gosun.co"
             }
           }
@@ -119,7 +119,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/product_474df4cb-44f2-4a1d-952c-c67b8a35b99e.png",
+          "logo_width": 250,
           "logo_position": "middle-left",
           "menu": "",
           "show_line_separator": true,

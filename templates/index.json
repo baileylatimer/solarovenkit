@@ -48,8 +48,60 @@
         "show_text_below": false
       }
     },
+    "82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5": {
+      "type": "icons",
+      "blocks": {
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-0": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Property_1_Forbes.png"
+          }
+        },
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-1": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Property_1_Inc.png"
+          }
+        },
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-2": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Property_1_Nat_Geo.png"
+          }
+        },
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-3": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Property_1_Am_Red_Cross.png"
+          }
+        },
+        "71476098-c5b2-4fad-a165-ddaf96101d01": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Property_1_Discovery.png"
+          }
+        },
+        "52a50f4b-bdae-473b-8b71-666e36214ca8": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Property_1_REI.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-0",
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-1",
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-2",
+        "template--16611854221559__82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5-1666742697d7c933ac-3",
+        "71476098-c5b2-4fad-a165-ddaf96101d01",
+        "52a50f4b-bdae-473b-8b71-666e36214ca8"
+      ],
+      "settings": {
+      }
+    },
     "c43ab941-e81f-4afe-a64a-508e7961c53a": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--15916844744951__c43ab941-e81f-4afe-a64a-508e7961c53a-166559488930b0b2be-0": {
           "type": "slide",
@@ -1011,6 +1063,7 @@
   },
   "order": [
     "image_banner",
+    "82f9541c-c6c3-4d1a-aa80-0bebb5d4f6d5",
     "c43ab941-e81f-4afe-a64a-508e7961c53a",
     "video",
     "4bf73a52-7e9b-472c-932c-f4329b16d947",
