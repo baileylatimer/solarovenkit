@@ -1,44 +1,48 @@
-<section class="container">
-  {% for block in section.blocks %}
-    <div class="flex flex-col items-center justify-center">
-      <svg width="155" height="32" viewBox="0 0 155 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M15.5 0.800049L18.98 11.5103H30.2414L21.1307 18.1296L24.6107 28.8398L15.5 22.2205L6.38933 28.8398L9.8693 18.1296L0.758624 11.5103H12.02L15.5 0.800049Z" fill="white"/>
-        <path d="M15.5 0.800049L18.98 11.5103H30.2414L21.1307 18.1296L24.6107 28.8398L15.5 22.2205L6.38933 28.8398L9.8693 18.1296L0.758624 11.5103H12.02L15.5 0.800049Z" fill="url(#paint0_linear_1004_3062)"/>
-        <path d="M46.5 0.800049L49.98 11.5103H61.2414L52.1307 18.1296L55.6107 28.8398L46.5 22.2205L37.3893 28.8398L40.8693 18.1296L31.7586 11.5103H43.02L46.5 0.800049Z" fill="white"/>
-        <path d="M46.5 0.800049L49.98 11.5103H61.2414L52.1307 18.1296L55.6107 28.8398L46.5 22.2205L37.3893 28.8398L40.8693 18.1296L31.7586 11.5103H43.02L46.5 0.800049Z" fill="url(#paint1_linear_1004_3062)"/>
-        <path d="M77.5 0.800049L80.98 11.5103H92.2414L83.1307 18.1296L86.6107 28.8398L77.5 22.2205L68.3893 28.8398L71.8693 18.1296L62.7586 11.5103H74.02L77.5 0.800049Z" fill="white"/>
-        <path d="M77.5 0.800049L80.98 11.5103H92.2414L83.1307 18.1296L86.6107 28.8398L77.5 22.2205L68.3893 28.8398L71.8693 18.1296L62.7586 11.5103H74.02L77.5 0.800049Z" fill="url(#paint2_linear_1004_3062)"/>
-        <path d="M108.5 0.800049L111.98 11.5103H123.241L114.131 18.1296L117.611 28.8398L108.5 22.2205L99.3893 28.8398L102.869 18.1296L93.7586 11.5103H105.02L108.5 0.800049Z" fill="white"/>
-        <path d="M108.5 0.800049L111.98 11.5103H123.241L114.131 18.1296L117.611 28.8398L108.5 22.2205L99.3893 28.8398L102.869 18.1296L93.7586 11.5103H105.02L108.5 0.800049Z" fill="url(#paint3_linear_1004_3062)"/>
-        <path d="M139.5 0.800049L142.98 11.5103H154.241L145.131 18.1296L148.611 28.8398L139.5 22.2205L130.389 28.8398L133.869 18.1296L124.759 11.5103H136.02L139.5 0.800049Z" fill="white"/>
-        <path d="M139.5 0.800049L142.98 11.5103H154.241L145.131 18.1296L148.611 28.8398L139.5 22.2205L130.389 28.8398L133.869 18.1296L124.759 11.5103H136.02L139.5 0.800049Z" fill="url(#paint4_linear_1004_3062)"/>
-        <defs>
-        <linearGradient id="paint0_linear_1004_3062" x1="6.789" y1="0.800049" x2="6.43619" y2="31.7953" gradientUnits="userSpaceOnUse">
-        <stop offset="0.0104167" stop-color="#98EAFC"/>
-        <stop offset="1" stop-color="#59A1D0"/>
-        </linearGradient>
-        <linearGradient id="paint1_linear_1004_3062" x1="37.789" y1="0.800049" x2="37.4362" y2="31.7953" gradientUnits="userSpaceOnUse">
-        <stop offset="0.0104167" stop-color="#98EAFC"/>
-        <stop offset="1" stop-color="#59A1D0"/>
-        </linearGradient>
-        <linearGradient id="paint2_linear_1004_3062" x1="68.789" y1="0.800049" x2="68.4362" y2="31.7953" gradientUnits="userSpaceOnUse">
-        <stop offset="0.0104167" stop-color="#98EAFC"/>
-        <stop offset="1" stop-color="#59A1D0"/>
-        </linearGradient>
-        <linearGradient id="paint3_linear_1004_3062" x1="99.789" y1="0.800049" x2="99.4362" y2="31.7953" gradientUnits="userSpaceOnUse">
-        <stop offset="0.0104167" stop-color="#98EAFC"/>
-        <stop offset="1" stop-color="#59A1D0"/>
-        </linearGradient>
-        <linearGradient id="paint4_linear_1004_3062" x1="130.789" y1="0.800049" x2="130.436" y2="31.7953" gradientUnits="userSpaceOnUse">
-        <stop offset="0.0104167" stop-color="#98EAFC"/>
-        <stop offset="1" stop-color="#59A1D0"/>
-        </linearGradient>
-        </defs>
-      </svg>
-      <h3>{{ block.settings.quote }}</h3>
-      <p>{{ block.settings.name }}</p>
+<section class=" py-36 bg-primary-light">
+  <div class="testimonial-slider container mx-auto">
+    {% for block in section.blocks %}
+    <div>
+      <div class="flex flex-col items-center justify-center">
+        <svg width="155" height="32" viewBox="0 0 155 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.5 0.800049L18.98 11.5103H30.2414L21.1307 18.1296L24.6107 28.8398L15.5 22.2205L6.38933 28.8398L9.8693 18.1296L0.758624 11.5103H12.02L15.5 0.800049Z" fill="white"/>
+          <path d="M15.5 0.800049L18.98 11.5103H30.2414L21.1307 18.1296L24.6107 28.8398L15.5 22.2205L6.38933 28.8398L9.8693 18.1296L0.758624 11.5103H12.02L15.5 0.800049Z" fill="url(#paint0_linear_1004_3062)"/>
+          <path d="M46.5 0.800049L49.98 11.5103H61.2414L52.1307 18.1296L55.6107 28.8398L46.5 22.2205L37.3893 28.8398L40.8693 18.1296L31.7586 11.5103H43.02L46.5 0.800049Z" fill="white"/>
+          <path d="M46.5 0.800049L49.98 11.5103H61.2414L52.1307 18.1296L55.6107 28.8398L46.5 22.2205L37.3893 28.8398L40.8693 18.1296L31.7586 11.5103H43.02L46.5 0.800049Z" fill="url(#paint1_linear_1004_3062)"/>
+          <path d="M77.5 0.800049L80.98 11.5103H92.2414L83.1307 18.1296L86.6107 28.8398L77.5 22.2205L68.3893 28.8398L71.8693 18.1296L62.7586 11.5103H74.02L77.5 0.800049Z" fill="white"/>
+          <path d="M77.5 0.800049L80.98 11.5103H92.2414L83.1307 18.1296L86.6107 28.8398L77.5 22.2205L68.3893 28.8398L71.8693 18.1296L62.7586 11.5103H74.02L77.5 0.800049Z" fill="url(#paint2_linear_1004_3062)"/>
+          <path d="M108.5 0.800049L111.98 11.5103H123.241L114.131 18.1296L117.611 28.8398L108.5 22.2205L99.3893 28.8398L102.869 18.1296L93.7586 11.5103H105.02L108.5 0.800049Z" fill="white"/>
+          <path d="M108.5 0.800049L111.98 11.5103H123.241L114.131 18.1296L117.611 28.8398L108.5 22.2205L99.3893 28.8398L102.869 18.1296L93.7586 11.5103H105.02L108.5 0.800049Z" fill="url(#paint3_linear_1004_3062)"/>
+          <path d="M139.5 0.800049L142.98 11.5103H154.241L145.131 18.1296L148.611 28.8398L139.5 22.2205L130.389 28.8398L133.869 18.1296L124.759 11.5103H136.02L139.5 0.800049Z" fill="white"/>
+          <path d="M139.5 0.800049L142.98 11.5103H154.241L145.131 18.1296L148.611 28.8398L139.5 22.2205L130.389 28.8398L133.869 18.1296L124.759 11.5103H136.02L139.5 0.800049Z" fill="url(#paint4_linear_1004_3062)"/>
+          <defs>
+          <linearGradient id="paint0_linear_1004_3062" x1="6.789" y1="0.800049" x2="6.43619" y2="31.7953" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0104167" stop-color="#98EAFC"/>
+          <stop offset="1" stop-color="#59A1D0"/>
+          </linearGradient>
+          <linearGradient id="paint1_linear_1004_3062" x1="37.789" y1="0.800049" x2="37.4362" y2="31.7953" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0104167" stop-color="#98EAFC"/>
+          <stop offset="1" stop-color="#59A1D0"/>
+          </linearGradient>
+          <linearGradient id="paint2_linear_1004_3062" x1="68.789" y1="0.800049" x2="68.4362" y2="31.7953" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0104167" stop-color="#98EAFC"/>
+          <stop offset="1" stop-color="#59A1D0"/>
+          </linearGradient>
+          <linearGradient id="paint3_linear_1004_3062" x1="99.789" y1="0.800049" x2="99.4362" y2="31.7953" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0104167" stop-color="#98EAFC"/>
+          <stop offset="1" stop-color="#59A1D0"/>
+          </linearGradient>
+          <linearGradient id="paint4_linear_1004_3062" x1="130.789" y1="0.800049" x2="130.436" y2="31.7953" gradientUnits="userSpaceOnUse">
+          <stop offset="0.0104167" stop-color="#98EAFC"/>
+          <stop offset="1" stop-color="#59A1D0"/>
+          </linearGradient>
+          </defs>
+        </svg>
+        <h2 class="mt-6 text-center lg:text-left">{{ block.settings.quote }}</h2>
+        <p class="my-6">{{ block.settings.name }}</p>
+      </div>
     </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </section>
 
 {% schema %}

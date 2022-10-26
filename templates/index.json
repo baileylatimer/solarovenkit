@@ -240,117 +240,6 @@
         "padding_bottom": 36
       }
     },
-    "4bf73a52-7e9b-472c-932c-f4329b16d947": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15916844744951__4bf73a52-7e9b-472c-932c-f4329b16d947-166559488930b0b2be-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_testimonial_1_edfbd9b7-d6d2-4f15-8995-033ff42f1f6e.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15916844744951__4bf73a52-7e9b-472c-932c-f4329b16d947-166559488930b0b2be-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_testimonial_2.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "fb7192a6-5f2c-4647-8ca5-e1460ad8e6fe": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_testimonial_3_ec45f888-60de-49c9-ad10-8acd992cd2ae.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "5bafc2ff-59ac-4a87-a6d3-33557769661e": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_testimonial_4_378e05b3-7cbf-4ad9-8968-55b21955a95d.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "2a5fca07-5d4b-4318-99bd-e438504e4af6": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_testimonial_5_a64304f3-b279-4bd2-aff9-6db06fc04cc1.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__4bf73a52-7e9b-472c-932c-f4329b16d947-166559488930b0b2be-0",
-        "template--15916844744951__4bf73a52-7e9b-472c-932c-f4329b16d947-166559488930b0b2be-1",
-        "fb7192a6-5f2c-4647-8ca5-e1460ad8e6fe",
-        "5bafc2ff-59ac-4a87-a6d3-33557769661e",
-        "2a5fca07-5d4b-4318-99bd-e438504e4af6"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": true,
-        "change_slides_speed": 3,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "f71adbac-c5c1-4571-a713-a840790840d3": {
       "type": "testimonial-slider",
       "blocks": {
@@ -960,7 +849,6 @@
     "2209092e-6e1e-4a15-9e19-06897537a22c",
     "c43ab941-e81f-4afe-a64a-508e7961c53a",
     "video",
-    "4bf73a52-7e9b-472c-932c-f4329b16d947",
     "f71adbac-c5c1-4571-a713-a840790840d3",
     "c4b0309b-502a-47c5-a80c-63719a4b698c",
     "rich_text",

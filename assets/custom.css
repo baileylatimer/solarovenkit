@@ -1,3 +1,15 @@
+/* COLORS
+=============== */
+:root {
+  --color-primary-light: #D9E8F2;
+}
+
+.bg-primary-light {
+  background-color: #D9E8F2;
+}
+
+/* TYPOGRAPHY
+=============== */
 @import url("//hello.myfonts.net/count/39f5e2");
 
 @font-face {
@@ -11,8 +23,6 @@
   font-style: normal;
 }
 
-
-
 @font-face {
   font-family: "cp";
   src: url("39F5E2_6_0.eot");
@@ -23,8 +33,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
 
 h1,
 h1 a,
@@ -106,4 +114,10 @@ body {
 
 .icon-section img {
   min-width: 120px;
+}
+
+/* SLIDER
+===================== */
+.slick-prev::before, .slick-next::before {
+  color: #1B3550;
 }
