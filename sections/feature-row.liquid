@@ -1,0 +1,343 @@
+<style>
+  {% if section.settings.natural_img != blank %}
+    .desktop-img img {
+      min-height: 460px;
+      object-fit: cover;
+  }
+{% endif %}
+</style>
+
+
+<section class="{% if section.settings.margin_top != blank %}mt-8{% endif %} {% if section.settings.margin_btm != blank %} mb-8{% endif %} " >
+  <div class="{% if section.settings.width != "full-width" %} container mx-auto{% endif %}" >
+    <div class="{% if section.settings.padding_top != blank %}pt-8{% endif %} {% if section.settings.padding_btm != blank %} pb-8{% endif %}" style="background-color: {{ section.settings.bg_color }};">
+    {% if section.settings.layout == 'right' %}
+      <div class="grid feature-row  feature-row-1 grid--full grid grid--1-col grid--2-col-tablet feature-row__text--{{ section.settings.layout }}" >
+
+        <div class="grid__item  flex flex-col items-center justify-center"  style="margin-top: 0; padding-top: 30px; padding-bottom: 30px;" >
+
+          <div class="feature-row-content" style="max-width: 420px; flex-direction: column">
+            {% if section.settings.title != blank %}
+            <div class="sitewide--title-wrapper" style="margin: 0 !important; padding: 0 !important;">
+              <h2 class="text-center lg:text-left {% if section.settings.text_display != blank %}text--lg{% endif %}" style="margin: 0 !important; padding: 0 !important; color: {{ section.settings.text_color }}">{{ section.settings.title | escape }}</h2>
+            </div>
+            {% endif %}
+
+            {% if section.settings.text != blank %}
+              <p class="rte featured-row__subtext textarea mt-4 {% if section.settings.text_display != blank %}text--display{% endif %}" style="color: {{ section.settings.text_color }};">{{ section.settings.text }}</p>
+            {% endif %}
+
+            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+            <div class="mt-8 flex">
+              <a href="{{ section.settings.button_link }}" class="homepage-featured-box-btn" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
+                {{ section.settings.button_label | escape }}
+              </a>
+            </div>
+            {% endif %}
+            </div>
+        </div>
+
+        <div class=" grid__item  {% if section.settings.portrait != blank %}px-8 flex items-center justify-center {% endif %}" style=" background-size: cover; padding-left: 0">
+
+        {% if section.settings.custom_banner_url != blank  %}
+          {% if section.settings.custom_banner_url contains '.mp4' %}
+        
+          <video id="custom-video" class="custom-video {% if section.settings.portrait != blank %} portrait-video {% endif %}" {% if block.settings.custom_banner_autoplay %}autoplay="true"{% endif %} {% if block.settings.custom_banner_loop %}loop="true"{% endif %} {% if block.settings.custom_banner_mute %}muted="true"{% endif %}  style="width: 100%; " playsinline controls>
+            <source src="{{section.settings.custom_banner_url}}" type="video/mp4">
+        </video>
+          
+          {% comment %} Fallback script if video does not loop {% endcomment %}
+            <script>
+            var vid = document.getElementById("custom-video");
+            if (vid){
+              vid.loop = true;
+              vid.play();
+            }
+            </script>
+            {% else %}
+          <img loading="lazy" decoding="async" src="{{section.settings.custom_banner_url}}"/> 
+          {% endif %}
+          {% else %}
+          {% if  section.settings.mob_image != blank %} 
+            <img class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
+          {% endif %}
+          <div class="desktop-img">
+            <img class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
+          </div>
+        {% endif %}
+
+
+
+        </div>
+
+      </div>
+    {% endif %}
+
+    {% if section.settings.layout == 'left' %}
+      <div class="grid feature-row feature-row-2 grid--full grid grid--1-col grid--2-col-tablet feature-row__text--{{ section.settings.layout }}" >
+
+        <div class=" grid__item {% if section.settings.portrait != blank %} flex items-center justify-center {% endif %}" style=" background-size: cover;  padding-left: 0">
+
+          {% if section.settings.custom_banner_url != blank  %}
+            {% if section.settings.custom_banner_url contains '.mp4' %}
+          
+            <video id="custom-video" class="custom-video {% if section.settings.portrait != blank %} portrait-video {% endif %}" {% if block.settings.custom_banner_autoplay %}autoplay="true"{% endif %} {% if block.settings.custom_banner_loop %}loop="true"{% endif %} {% if block.settings.custom_banner_mute %}muted="true"{% endif %}  style="width: 100%; " playsinline>
+              <source src="{{section.settings.custom_banner_url}}" type="video/mp4">
+          </video>
+            
+            {% comment %} Fallback script if video does not loop {% endcomment %}
+              <script>
+              var vid = document.getElementById("custom-video");
+              if (vid){
+                vid.loop = true;
+                vid.play();
+              }
+              </script>
+              {% else %}
+            <img loading="lazy" decoding="async" src="{{section.settings.custom_banner_url}}"/> 
+            {% endif %}
+            {% else %}
+            {% if  section.settings.mob_image != blank %} 
+              <img class="mobile-img" src="{{ section.settings.mob_image | img_url: '480x' }}"/>
+            {% endif %}
+            <div class="desktop-img">
+              <img class="desktop-img" src="{{ section.settings.mob_image | img_url: '760x' }}"/>
+            </div>
+          {% endif %}
+        </div>
+        
+        <div class="grid__item  flex flex-col items-center justify-center"  style="margin-top: 0; padding-top: 30px; padding-bottom: 30px;">
+
+          <div class="feature-row-content"  style="max-width: 420px; flex-direction: column">
+            {% if section.settings.title != blank %}
+            <div class="sitewide--title-wrapper" style="margin: 0 !important; padding: 0 !important; color: {{ section.settings.text_color }} !important;">
+              <h2 class="text-center lg:text-left {% if section.settings.text_display != blank %}text--lg{% endif %}" style="margin: 0 !important; padding: 0 !important;">{{ section.settings.title | escape }}</h2>
+            </div>
+            {% endif %}
+
+            {% if section.settings.text != blank %}
+              <p class="rte featured-row__subtext textarea mt-4 text-center lg:text-left {% if section.settings.text_display != blank %}text--display{% endif %}" style="color: {{ section.settings.text_color }} !important;">{{ section.settings.text }}</p>
+            {% endif %}
+
+            {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+              <div class="mt-8 flex">
+                <a href="{{ section.settings.button_link }}" class="homepage-featured-box-btn" style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_text_color }}; max-width: 305px">
+                  {{ section.settings.button_label | escape }}
+                </a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+
+      </div>
+    {% endif %}
+
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Feature row - Half",
+  "class": "image-with-text-wrapper",
+  "settings": [
+  {
+    "type": "radio",
+    "id": "width",
+    "label": "Width",
+    "options": [
+      {
+        "value": "fixed",
+        "label": "Fixed"
+      },
+      {
+        "value": "full-width",
+        "label": "Full width"
+      }
+    ],
+    "default": "full-width"
+  },
+  {
+    "type": "color",
+    "id": "bg_color",
+    "label": "Background Color"
+		},
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text Color"
+    },
+    {
+      "type": "checkbox",
+      "id": "margin_top",
+      "label": "Enable top margin",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "margin_btm",
+      "label": "Enable bottom margin",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "padding_top",
+      "label": "Enable top padding",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "padding_btm",
+      "label": "Enable bottom padding",
+      "default": false
+    },
+    {
+      "type"  :  "image_picker",
+      "id"    :  "mob_image",
+      "label" :  "Mobile Image",
+      "info": "856 x 1300 recommended"
+      },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "checkbox",
+      "id": "natural_img",
+      "label": "Fill image to container",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_custom_banner",
+      "label": "Enable custom banner",
+      "default": false,
+      "info": "Add the full url of a custom image asset (animated gifs etc) or mp4 file"
+    },
+    {
+      "type": "url",
+      "id": "custom_banner_url",
+      "label": "Custom Banner URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_banner_autoplay",
+      "label": "Autoplay",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_banner_loop",
+      "label": "Loop",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "custom_banner_mute",
+      "label": "Mute",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "portrait",
+      "label": "Portrait video",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "parallax",
+      "label": "Enable parallax effect",
+      "default": true
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Image on left"
+        },
+        {
+          "value": "right",
+          "label": "Image on right"
+        }
+      ]
+    },
+    {
+    "type": "select",
+    "id": "image_height",
+    "label": "Image height",
+    "default": "40vw",
+    "options": [
+        {
+            "value": "30vw",
+            "label": "Small"
+        },
+        {
+            "value": "40vw",
+            "label": "Medium"
+        },
+        {
+            "value": "50vw",
+            "label": "Large"
+        }
+        ]
+    },
+    {
+      "type": "html",
+      "id": "title",
+      "label": "Heading",
+      "default": "Share brand or product details"
+    },
+    {
+      "type": "html",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "checkbox",
+      "id": "text_display",
+      "label": "Enable large text"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "Button Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_text_color",
+        "label": "Button Text Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_hover_color",
+        "label": "Button Hover Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_text_hover_color",
+        "label": "Button Text Hover Color"
+        }
+      ],
+  "presets": [
+    {
+      "name": "Feature row - Half",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}
