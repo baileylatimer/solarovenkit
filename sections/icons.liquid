@@ -1,5 +1,5 @@
-<section class="icon-section">
-  <div class="container flex justify-start lg:justify-center mx-auto py-12">
+<section class="icon-section py-20 bg-primary-light">
+  <div class="container flex justify-start lg:justify-center mx-auto">
     {% for block in section.blocks %}
       <img src="{{ block.settings.image | img_url: '200x'}}">
     {% endfor %}

@@ -110,7 +110,10 @@ body {
 
 .icon-section {
   overflow-x: scroll;
+  overflow: -moz-scrollbars-none;
 }
+
+.icon-section::-webkit-scrollbar { width: 0 !important }
 
 .icon-section img {
   min-width: 120px;
