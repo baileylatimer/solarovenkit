@@ -510,332 +510,103 @@
         "padding_bottom": 36
       }
     },
-    "be7b5c39-675a-4bf5-a76a-d048683de13a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15916844744951__be7b5c39-675a-4bf5-a76a-d048683de13a-16655144451a2394e5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Safe to touch",
-            "heading_size": "h1"
-          }
-        },
-        "template--15916844744951__be7b5c39-675a-4bf5-a76a-d048683de13a-16655144451a2394e5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Other methods of cooking get dangerously hot on the outside, but the Solar Oven Kit traps all of its heat inside the vacuum cooking tube. Enjoy solar cooked food without the danger of burns!<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__be7b5c39-675a-4bf5-a76a-d048683de13a-16655144451a2394e5-0",
-        "template--15916844744951__be7b5c39-675a-4bf5-a76a-d048683de13a-16655144451a2394e5-1"
-      ],
+    "07c7d3f4-e580-4bbd-b36f-da41804d7d76": {
+      "type": "feature-row",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 32
+        "width": "fixed",
+        "bg_color": "",
+        "text_color": "",
+        "margin_top": true,
+        "margin_btm": true,
+        "padding_top": true,
+        "padding_btm": true,
+        "mob_image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_cool_to_the_touch.jpg",
+        "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_cool_to_the_touch.jpg",
+        "natural_img": true,
+        "enable_custom_banner": false,
+        "custom_banner_url": "",
+        "custom_banner_autoplay": true,
+        "custom_banner_loop": true,
+        "custom_banner_mute": false,
+        "portrait": false,
+        "parallax": true,
+        "layout": "left",
+        "image_height": "40vw",
+        "title": "Safe to touch",
+        "text": "Other methods of cooking get dangerously hot on the outside, but the Solar Oven Kit traps all of its heat inside the vacuum cooking tube. Enjoy solar cooked food without the danger of burns.",
+        "text_display": false,
+        "button_label": "",
+        "button_link": "",
+        "btn_color": "",
+        "btn_text_color": "",
+        "btn_hover_color": "",
+        "btn_text_hover_color": ""
       }
     },
-    "69132d8b-8932-4c0f-acfd-f5b0ecf8bb0b": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15916844744951__69132d8b-8932-4c0f-acfd-f5b0ecf8bb0b-16654182803f09afac-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_cool_to_the_touch.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/products\/solar-oven-kit",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15916844744951__69132d8b-8932-4c0f-acfd-f5b0ecf8bb0b-16654182803f09afac-0": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__69132d8b-8932-4c0f-acfd-f5b0ecf8bb0b-16654182803f09afac-1",
-        "template--15916844744951__69132d8b-8932-4c0f-acfd-f5b0ecf8bb0b-16654182803f09afac-0"
-      ],
+    "95fb9e2d-4ad2-4039-bf5c-646086a90b66": {
+      "type": "feature-row",
       "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "width": "fixed",
+        "bg_color": "",
+        "text_color": "",
+        "margin_top": true,
+        "margin_btm": true,
+        "padding_top": false,
+        "padding_btm": false,
+        "mob_image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_ultra_portable_1d5db388-8f8d-4101-9dac-1646d3aa8e08.jpg",
+        "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_ultra_portable_1d5db388-8f8d-4101-9dac-1646d3aa8e08.jpg",
+        "natural_img": true,
+        "enable_custom_banner": false,
+        "custom_banner_url": "",
+        "custom_banner_autoplay": true,
+        "custom_banner_loop": true,
+        "custom_banner_mute": false,
+        "portrait": false,
+        "parallax": true,
+        "layout": "right",
+        "image_height": "40vw",
+        "title": "Bake, boil, or fry anywhere",
+        "text": "Compact enough to take on the go. You can cook anywhere the sun shines. Plus every package includes a carrying bag with drawstrings to become a backpack.",
+        "text_display": false,
+        "button_label": "",
+        "button_link": "",
+        "btn_color": "",
+        "btn_text_color": "",
+        "btn_hover_color": "",
+        "btn_text_hover_color": ""
       }
     },
-    "ab0ed943-884f-4f80-a066-75f98cb66794": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15916844744951__ab0ed943-884f-4f80-a066-75f98cb66794-16655144451a2394e5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Bake, boil, or fry anywhere",
-            "heading_size": "h1"
-          }
-        },
-        "template--15916844744951__ab0ed943-884f-4f80-a066-75f98cb66794-16655144451a2394e5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Compact enough to take on the go. You can cook anywhere the sun shines. Plus every package includes a carrying bag with drawstrings to become a backpack.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__ab0ed943-884f-4f80-a066-75f98cb66794-16655144451a2394e5-0",
-        "template--15916844744951__ab0ed943-884f-4f80-a066-75f98cb66794-16655144451a2394e5-1"
-      ],
+    "bb83b98b-d28a-4d8f-99f5-2041912e62b5": {
+      "type": "feature-row",
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 32
-      }
-    },
-    "b8f27a2f-11db-44d7-8209-dd199ff995d5": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15916844744951__b8f27a2f-11db-44d7-8209-dd199ff995d5-16655144452ae7bd6b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_ultra_portable_1d5db388-8f8d-4101-9dac-1646d3aa8e08.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/products\/solar-oven-kit",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15916844744951__b8f27a2f-11db-44d7-8209-dd199ff995d5-16655144452ae7bd6b-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__b8f27a2f-11db-44d7-8209-dd199ff995d5-16655144452ae7bd6b-0",
-        "template--15916844744951__b8f27a2f-11db-44d7-8209-dd199ff995d5-16655144452ae7bd6b-1"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 3,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "8a38a5ff-f17a-4025-aa3f-d5ebdcd252e9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15916844744951__8a38a5ff-f17a-4025-aa3f-d5ebdcd252e9-16655144451a2394e5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Set up in seconds",
-            "heading_size": "h1"
-          }
-        },
-        "template--15916844744951__8a38a5ff-f17a-4025-aa3f-d5ebdcd252e9-16655144451a2394e5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>How To In Five Steps, 1) attach the brackets to the tube, 2) slide the reflectors in-between the brackets, 3) load the tray with food, 4) point at Sun, 5)  enjoy a hot meal after 15 minutes<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__8a38a5ff-f17a-4025-aa3f-d5ebdcd252e9-16655144451a2394e5-0",
-        "template--15916844744951__8a38a5ff-f17a-4025-aa3f-d5ebdcd252e9-16655144451a2394e5-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 32
-      }
-    },
-    "d896f5b5-4ae9-4071-be10-d7ba7890d9c2": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15916844744951__d896f5b5-4ae9-4071-be10-d7ba7890d9c2-16655144452ae7bd6b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_beachside_bar.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/products\/solar-oven-kit",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15916844744951__d896f5b5-4ae9-4071-be10-d7ba7890d9c2-16655144452ae7bd6b-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__d896f5b5-4ae9-4071-be10-d7ba7890d9c2-16655144452ae7bd6b-0",
-        "template--15916844744951__d896f5b5-4ae9-4071-be10-d7ba7890d9c2-16655144452ae7bd6b-1"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "7fc3acfc-6914-488c-b2dc-08cab06491ff": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15916844744951__7fc3acfc-6914-488c-b2dc-08cab06491ff-16655144451a2394e5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Vacuum tube",
-            "heading_size": "h1"
-          }
-        },
-        "template--15916844744951__7fc3acfc-6914-488c-b2dc-08cab06491ff-16655144451a2394e5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Near perfect insulator thanks to two layers of tough Pyrex glass with a vacuum between them. This enables solar cooking the freezing cold and through cloudy periods.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__7fc3acfc-6914-488c-b2dc-08cab06491ff-16655144451a2394e5-0",
-        "template--15916844744951__7fc3acfc-6914-488c-b2dc-08cab06491ff-16655144451a2394e5-1"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 60,
-        "padding_bottom": 32
-      }
-    },
-    "9dab733b-7763-4356-b563-65b89b5cd7f3": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15916844744951__9dab733b-7763-4356-b563-65b89b5cd7f3-16655144452ae7bd6b-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_vacuum_tube.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "shopify:\/\/products\/solar-oven-kit",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15916844744951__9dab733b-7763-4356-b563-65b89b5cd7f3-16655144452ae7bd6b-1": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--15916844744951__9dab733b-7763-4356-b563-65b89b5cd7f3-16655144452ae7bd6b-0",
-        "template--15916844744951__9dab733b-7763-4356-b563-65b89b5cd7f3-16655144452ae7bd6b-1"
-      ],
-      "settings": {
-        "layout": "grid",
-        "slide_height": "medium",
-        "slider_visual": "numbers",
-        "auto_rotate": false,
-        "change_slides_speed": 3,
-        "show_text_below": false,
-        "accessibility_info": ""
+        "width": "fixed",
+        "bg_color": "",
+        "text_color": "",
+        "margin_top": true,
+        "margin_btm": true,
+        "padding_top": false,
+        "padding_btm": false,
+        "mob_image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_beachside_bar.jpg",
+        "image": "shopify:\/\/shop_images\/Gosun_solar_oven_kit_beachside_bar.jpg",
+        "natural_img": true,
+        "enable_custom_banner": false,
+        "custom_banner_url": "",
+        "custom_banner_autoplay": true,
+        "custom_banner_loop": true,
+        "custom_banner_mute": false,
+        "portrait": false,
+        "parallax": true,
+        "layout": "left",
+        "image_height": "40vw",
+        "title": "Set up in seconds",
+        "text": "How To In Five Steps, 1) attach the brackets to the tube, 2) slide the reflectors in-between the brackets, 3) load the tray with food, 4) point at Sun, 5) enjoy a hot meal after 15 minutes",
+        "text_display": false,
+        "button_label": "",
+        "button_link": "",
+        "btn_color": "",
+        "btn_text_color": "",
+        "btn_hover_color": "",
+        "btn_text_hover_color": ""
       }
     },
     "18851f42-00eb-47d8-87e5-5cdbbf791f69": {
@@ -1145,14 +916,9 @@
     "rich_text",
     "featured_collection",
     "multicolumn",
-    "be7b5c39-675a-4bf5-a76a-d048683de13a",
-    "69132d8b-8932-4c0f-acfd-f5b0ecf8bb0b",
-    "ab0ed943-884f-4f80-a066-75f98cb66794",
-    "b8f27a2f-11db-44d7-8209-dd199ff995d5",
-    "8a38a5ff-f17a-4025-aa3f-d5ebdcd252e9",
-    "d896f5b5-4ae9-4071-be10-d7ba7890d9c2",
-    "7fc3acfc-6914-488c-b2dc-08cab06491ff",
-    "9dab733b-7763-4356-b563-65b89b5cd7f3",
+    "07c7d3f4-e580-4bbd-b36f-da41804d7d76",
+    "95fb9e2d-4ad2-4039-bf5c-646086a90b66",
+    "bb83b98b-d28a-4d8f-99f5-2041912e62b5",
     "18851f42-00eb-47d8-87e5-5cdbbf791f69",
     "b95c534a-2751-4346-94bf-0261ddd35e94",
     "a75ffe16-e777-4bb0-845c-9f7b959585eb",
