@@ -351,6 +351,55 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "f71adbac-c5c1-4571-a713-a840790840d3": {
+      "type": "testimonial-slider",
+      "blocks": {
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-0": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "This is an awesome piece of equipment.",
+            "name": "Mav P."
+          }
+        },
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-1": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "Cooks everything with just sunlight!",
+            "name": "Victor F."
+          }
+        },
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-2": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "This thing is amazing.",
+            "name": "Jay U."
+          }
+        },
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-3": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "I use it all the time, even overcast.",
+            "name": "Bill W."
+          }
+        },
+        "759e85c3-89e3-4958-9783-cc982478b823": {
+          "type": "testimonial",
+          "settings": {
+            "quote": "Thoroughly impressed with this solar stove.",
+            "name": "Daniel T."
+          }
+        }
+      },
+      "block_order": [
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-0",
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-1",
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-2",
+        "template--16611854221559__f71adbac-c5c1-4571-a713-a840790840d3-16667547555a55a14d-3",
+        "759e85c3-89e3-4958-9783-cc982478b823"
+      ],
+      "settings": {
+      }
+    },
     "c4b0309b-502a-47c5-a80c-63719a4b698c": {
       "type": "slideshow",
       "blocks": {
@@ -912,6 +961,7 @@
     "c43ab941-e81f-4afe-a64a-508e7961c53a",
     "video",
     "4bf73a52-7e9b-472c-932c-f4329b16d947",
+    "f71adbac-c5c1-4571-a713-a840790840d3",
     "c4b0309b-502a-47c5-a80c-63719a4b698c",
     "rich_text",
     "featured_collection",
